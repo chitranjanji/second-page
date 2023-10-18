@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #dadada;
+}
+#left{
+    width: 55%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+#overlay h1{
+    padding-top: 5%;
+    padding-left: 10%;
+    color: #fff;
+    font-size: 120px;
+    font-family:none;
+    font-weight: 20;
+}
+#overlay #ltext {
+    padding: 75px 120px;
+    font-size: 22px;
+    margin-right: 80px;
+    color: #fff;
+    margin-right: 220px;
+    
+}
+#overlay #ltext p{
+    margin-top: 10px;
+    font-size:15px;
+     
+}
+ 
+#arrow{
+    position: absolute;
+    left:20%;
+    top:80%;  
+    width: 50px;
+    height:98px;
+    background-color:#fff;
+    padding-top: 100px;
+
+}
+#arrow i{
+    position:absolute;
+    top:20px;
+    left:11px;
+    font-size: 28px;
+    color: red;
+}
+#btmtext{
+    position: absolute;
+    top: 85%;
+    left:30%;
+    width: 38%;
+    height: 30px;
+}
+#btmtext a{    
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+#right{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+}
+#rleft{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
+#rltop{
+    width: 100%;
+    height: 65%;
+    background-image: url(https://images.unsplash.com/photo-1563529427727-cb7f13f3a756?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+     background-size: cover;
+     background-position: center;  
+}
+#rlbtm{
+    width: 100%;
+    height: 35%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#rlbtm h3:nth-child(3){
+    color: red;
+}
+#rright{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+#rrtop{
+    width: 100%;
+    height: 45%;
+    background-color: beige;
+    padding:20px ;
+}
+ 
+#rrbtm{
+    width: 100%;
+    height: 55%;
+    background-image: url(https://images.unsplash.com/photo-1586788224331-947f68671cf1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+}
